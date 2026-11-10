@@ -7,5 +7,30 @@ body {
 }
 
 .container {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(15, 15, 17, 0.95);
+    backdrop-filter: blur(1rem);
+    border-bottom: 0.1rem solid var(--color-border);
+    padding: 1.6rem 0;
+}
+
+.header__nav {
     
+}
+
+.header__logo {
+
+}
+
+.header__logo span {
+
 }
