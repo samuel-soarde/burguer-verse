@@ -1,0 +1,39 @@
+/* 1. VARIÁVEIS GLOBAIS (Declaração dos tokens de design em primeiro lugar) */
+:root {
+  /* Cores Principais Fast-Food */
+  --color-primary: #ff3838;
+  --color-primary-hover: #e02828;
+  --color-secondary: #ffb302;
+  --color-accent: #2ed573;
+  
+  /* Cores Neutras (Tema Escuro) */
+  --color-bg-main: #0f0f11;
+  --color-bg-card: #18181c;
+  --color-bg-card-hover: #222228;
+  --color-text-main: #ffffff;
+  --color-text-muted: #a1a1aa;
+  --color-border: #27272a;
+
+  /* Tipografia */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Escala de Fontes (base 10: 1rem = 10px) */
+  --fs-sm: 1.4rem;     /* 14px */
+  --fs-base: 1.6rem;   /* 16px */
+  --fs-md: 2.0rem;     /* 20px */
+  --fs-lg: 2.8rem;     /* 28px */
+  --fs-xl: 4.0rem;     /* 40px */
+  --fs-hero: 5.6rem;   /* 56px */
+
+  /* Bordas e Sombras */
+  --radius-sm: 0.8rem;
+  --radius-md: 1.6rem;
+  --radius-lg: 2.4rem;
+  --shadow-card: 0 1.0rem 2.5rem -0.5rem rgba(0, 0, 0, 0.5);
+
+  /* Transições */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
