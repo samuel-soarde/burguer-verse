@@ -1,0 +1,28 @@
+/* Configuracao inicial e temas consumindo as variaveis do design-system */
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+  font-size: var(--fs-base); /* 1.6rem = 16px */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Layout de Container para alinhamento central */
+.container {
+  width: 100%;
+  max-width: 120rem; /* 1200px maximo */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header Fixo */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(15, 15, 17, 0.95);
+  backdrop-filter: blur(1rem);
+  border-bottom: 0.1rem solid var(--color-border);
+  padding: 1.6rem 0;
+}
+

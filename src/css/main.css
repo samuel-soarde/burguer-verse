@@ -1,0 +1,8 @@
+
+/* 1. Base, Reset e Tokens do Design System */
+
+@import url(./design-system.css);
+
+/* 2. Estilos Globais, Estrutura CSS Grid e Responsividade */
+
+@import url(./global.css);
