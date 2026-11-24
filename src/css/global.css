@@ -1,28 +1,66 @@
 /* Configuracao inicial e temas consumindo as variaveis do design-system */
 body {
-  background-color: var(--color-bg-main);
-  color: var(--color-text-main);
-  font-family: var(--font-body);
-  font-size: var(--fs-base); /* 1.6rem = 16px */
-  -webkit-font-smoothing: antialiased;
+	background-color: var(--color-bg-main);
+	color: var(--color-text-main);
+	font-family: var(--font-body);
+	font-size: var(--fs-base);
+	/* 1.6rem = 16px */
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Layout de Container para alinhamento central */
 .container {
-  width: 100%;
-  max-width: 120rem; /* 1200px maximo */
-  margin: 0 auto;
-  padding: 0 2rem;
+	width: 100%;
+	max-width: 120rem;
+	/* 1200px maximo */
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
 /* Header Fixo */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background-color: rgba(15, 15, 17, 0.95);
-  backdrop-filter: blur(1rem);
-  border-bottom: 0.1rem solid var(--color-border);
-  padding: 1.6rem 0;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: rgba(15, 15, 17, 0.95);
+	backdrop-filter: blur(1rem);
+	border-bottom: 0.1rem solid var(--color-border);
+	padding: 1.6rem 0;
 }
 
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-family: var(--font-heading);
+	font-size: 2.4rem;
+	font-weight: 800;
+	color: var(--color-primary);
+}
+
+.header__logo span {
+	color: var(--color-secondary)
+}
+
+.header__menu { 
+	display: flex;
+	justify-content: space-between;
+	gap: 2.4rem;
+}
+
+.header__link {
+	font-weight: 500;
+	transition: color var(--transition-fast);
+}
+
+.header__link:hover {
+	color: var(--color-primary);
+}
+
+/* Botões genéricos */
+.btn {}
+
+.btn--primary {}
